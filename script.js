@@ -56,4 +56,3 @@ button.click();
 //  Promise ->  (then(() => console.log('Microtask 1')) переходит в call stack -> выполняется и покидает call stack;
 //  Promise ->  (then(() => console.log('Microtask 2')) переходит в call stack -> выполняется и покидает call stack;
 
-// Далее вызывается второй обработчик. Цикл повторяется для Listener 2, Microtask 2.
